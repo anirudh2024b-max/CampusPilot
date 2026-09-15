@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CampusPilot – AI Study Agent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>CampusPilot</h1>
+    <p class="subtitle">AI academic-action agent for students</p>
+
+    <section>
+      <h2>1. Paste your syllabus</h2>
+      <textarea id="syllabusText" rows="8" placeholder="Paste syllabus text here..."></textarea>
+      <button id="extractBtn">Extract Topics</button>
+      <div id="topicsOutput" class="output"></div>
+    </section>
+
+    <section>
+      <h2>2. Create study plan</h2>
+      <label>
+        Exam date:
+        <input type="date" id="examDate" />
+      </label>
+      <label>
+        Hours per day:
+        <input type="number" id="hoursPerDay" min="1" max="12" value="3" />
+      </label>
+      <button id="planBtn">Generate Plan</button>
+      <div id="planOutput" class="output"></div>
+      <p id="planExplanation" class="explanation"></p>
+    </section>
+
+    <section>
+      <h2>3. Mark progress & replan</h2>
+      <p>Check tasks you completed, uncheck tasks you missed.</p>
+      <div id="tasksList"></div>
+      <button id="replanBtn">Replan with my progress</button>
+      <div id="replanOutput" class="output"></div>
+      <p id="replanExplanation" class="explanation"></p>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
