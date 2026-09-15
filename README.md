@@ -1,4 +1,5 @@
-Inspiration
+Inspiration:-
+
 College students often receive syllabuses, assignments, and exam dates but struggle to convert them into a practical daily study plan. The problem is not only understanding what needs to be studied; it is deciding what to study first, how much time to allocate, and how to recover after missing a task.
 
 As a student balancing academics and limited time, I wanted to build a focused tool that would turn an unstructured syllabus into a clear next action. This led to CampusPilot, an academic-action agent designed around planning and replanning rather than simple chat.
