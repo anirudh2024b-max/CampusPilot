@@ -56,6 +56,5 @@ Pydantic models for request and response validation.
 
 
 Direct Link to the project -
-http://localhost:3000/
 
-
+file:///C:/Users/aniru/OneDrive/Desktop/ProCampus/frontend/index.html
