@@ -19,10 +19,10 @@ Because your deadline is close, the safest submission is:
 
 Do not submit a link such as:
 
-```text
-http://localhost:3000
-```
 
-as a public demo URL; judges cannot access your computer through it. Public GitHub repositories commonly serve as the code and setup source, while a separately hosted URL is needed for direct browser access. [175][178]
+'''http://localhost:3000'''
+
+
+as a public demo URL; judges cannot access your computer through it. Public GitHub repositories commonly serve as the code and setup source, while a separately hosted URL is needed for direct browser access.
 
 
